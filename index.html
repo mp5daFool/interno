@@ -13,22 +13,19 @@
 <body>
 
     <!-- HEADER -->
-    <header class="flex spaceBetween container alignCenter top20">
-        <a href="" class="logo">
-            <img src="assets/Logo.png" alt="Logo interno">
-        </a>
-
-        <nav class="flex alignCenter">
-            <div class>
-                <ul class="flex spaceBetween navList top20">
-                    <li><a href="index.html" class="navListLink">Home</a></li>
-                    <li><a href="#" class="navListLink">Services</a></li>
-                    <li><a href="#" class="navListLink">Projets</a></li>
-                    <li><a href="#" class="navListLink">Contact</a></li>
+    <div class="headerContainer">
+        <header class="container">
+            <a class="logoLink" href="index.html"><img alt="logo du site Inferno" class="logo" src="assets/Logo.png"/></a>
+            <nav class="navbar">
+                <ul class="navList">
+                    <li class="navItem"><a class="navLink" href="#">Accueil</a></li>
+                    <li class="navItem"><a class="navLink" href="#">Services</a></li>
+                    <li class="navItem"><a class="navLink" href="#">Projets</a></li>
+                    <li class="navItem"><a class="navLink" href="#">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
     
     <!-- MAIN -->
     <main>
@@ -36,40 +33,60 @@
 
 
         <!-- SECTION HERO -->
-        <section class="s1 hero">
-            <div class="container">
-                <div class="top469 herobox">
-                    <h1>Rendez votre maison unique</h1>
-                <p>Nous croyons que chaque espace a le potentiel d'être exceptionnel.</p>
-                <a href="#">Construisez votre projet ➜</a>
-                
-                </div>
-                
+        <section class="hero">
+            <div class="heroContent container">
+                <h1 class="heroText">Rendez votre <br> maison unique</h1>
+                <p>Nous croyons que chaque espace a le potentiel d'être <br> exceptionnel.</p>
+                <a class="heroBtn" href="">Construisons votre projet <span>➜</span></a>
             </div>
         </section>
 
         <!-- SECTION 2 -->
 
-        <section class="flex spaceBetween container s2 top20">
+        <section class="s2">
+            <div class="flex spaceBetween container">
+                <div class="s2Content">
+                    <h3>Vision</h3>
+                    <p>Notre processus commence par comprendre votre vision. Nous écoutons attentivement vos idées, vos
+                        rêves et vos besoins pour créer un design qui vous correspond.</p>
+                </div>
+                
+                <div class="s2Content">
+                    <h3>Créativité</h3>
+                    <p>Notre équipe de designers explore des concepts uniques pour chaque projet, en veillant à ce que
+                        chaque détail soit une expression authentique de votre personnalité.</p>
+                </div>
 
-            <div>
-                <h3>Vision</h3>
-                <p>Notre processus commence par comprendre votre vision. Nous écoutons attentivement vos idées, vos rêves et vos besoins pour créer un design qui vous correspond.</p>
+                <div class="s2Content">
+                    <h3>Exécution Impeccable</h3>
+                    <p>Nous nous engageons à fournir des résultats exceptionnels. Notre équipe supervise chaque étape du
+                        processus, de la conception initiale à l'installation finale.</p>
+                </div>
+
             </div>
-
-            <div>
-                <h3>Créativité</h3>
-                <p>Notre équipe de designers explore des concepts uniques pour chaque projet, en veillant à ce que chaque détail soit une expression authentique de votre personnalité.</p>
-            </div>
-
-            <div>
-                <h3>Exécution Impeccable</h3>
-                <p>Nous nous engageons à fournir des résultats exceptionnels. Notre équipe supervise chaque étape du processus, de la conception initiale à l'installation finale.</p>
-            </div>
-
-
         </section>
-
+        <!-- SECTION 3 -->
+        <section class="s3 container">
+            <div class="s3Container">
+                <h2>Nous créons l'art <br> De la vie élégante</h2>
+                <p class="s3Paragraph">Transformez votre maison en un espace élégant <br> et fonctionnel avec nos
+                    services
+                    de design <br> résidentiel sur
+                    mesure.</p>
+                <div class="phoneContainer flex alignCenter">
+                    <div class="phoneImage">
+                        <img alt="icone d'un téléphone" src="assets/Call.png">
+                    </div>
+                    <div class="phoneText">
+                        <p class="number">012345678</p>
+                        <p>Apellez-nous n’importe quand</p>
+                    </div>
+                </div>
+                <a class="s3Btn" href="#">Obtenez un devis gratuit <span>➜</span></a>
+            </div>
+            <img alt="image d'illustration d'une cuisine" class="s3Img" src="assets/image-article.jpg">
+        </section>
+    <!-- MAIN -->
     </main>
 
 </body>
